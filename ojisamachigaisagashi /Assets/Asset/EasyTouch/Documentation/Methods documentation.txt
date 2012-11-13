@@ -1,0 +1,230 @@
+Easy Touch V1.0: Method Documentation
+======================================
+
+Below is a list of all Methods called by EasyTouch that you must implement in your script.
+Each method will have a parameter input of type: Gesture
+
+Example :
+function On_DoubleTap(gesture:Gesture){
+...
+}
+
+======================================
+Gesture class passed as parameter
+======================================
+class Gesture{
+
+	var fingerIndex:int;		// The index of the finger
+	var touchCount:int;			// The number of touch (not the tap count)
+	
+	var startPosition:Vector2;	// The start position of the gesture.
+	var position:Vector2;		// The current position of the touch.
+	var deltaPosition:Vector2;	// The position delta since last change. 
+	
+	var actionTime:float;		// Time since the beginning of the gesture.
+	var deltaTime:float;		// Amount of time passed since last call.
+
+	var swipe:Swipe;			// The siwpe type (see Swipe enumeration, left, right, up, down).
+	var swipeLength:int;		// The length of the swipe.
+	var swipeVector:Vector2;	// ....
+	
+	var deltaPinch:int;			// The pinch length delta since last change.
+	var twistAngle:float;		// The delta angle of the twist
+	
+	var pickObject:GameObject;	// The current picked gameObject
+	var otherReceiver:GameObject; // other receiver gameobject of messages
+}
+
+For two finger gesture
+**********************
+startPosition 	= The start position of The center between two fingerscenter 
+position		= The current position of The center between two fingerscenter
+deltaPosition	= The position delta of the center since last change.
+
+
+
+=================================================================================
+All methods for 1 finger (EasyTouch manages 10 fingers)
+=================================================================================
+
+function On_TouchCancel(gesture:Gesture)
+**************************************************
+Sent when the touch is canceld by the feature
+
+function On_TouchStart(gesture:Gesture)
+**************************************************
+Sent at the beginning of a touch
+
+
+function On_TouchDown(gesture:Gesture)
+**************************************************
+Sent as a finger is pressed
+
+
+function On_TouchUp(gesture:Gesture)
+**************************************************
+Sent when the touch ends.
+
+
+function On_SimpleTap(gesture:Gesture)
+**************************************************
+Sent when the touch is up  before the start time of a long tap
+
+
+function On_DoubleTap(gesture:Gesture){
+**************************************************
+Sent when the tap counter = 2 in a shorttime
+
+
+function On_LongTapStart(gesture:Gesture)
+**************************************************
+Sent at the beginning of a long tap
+
+
+function On_LongTap(gesture:Gesture)
+**************************************************
+Sent throughout the duration of a long tap, after the beginning of long tap
+
+
+function On_LongTapEnd(gesture:Gesture)
+**************************************************
+Sent when the long tap ends
+
+
+function On_DragStart(gesture:Gesture)
+**************************************************
+Sent at the beginning of a drag. A drag is detected when the automatic selection returns a pickable gameobject
+
+
+function On_Drag(gesture:Gesture)
+**************************************************
+Sent throughout the duration of a drag
+
+
+function On_DragEnd(gesture:Gesture){
+**************************************************
+Sent when the drag ends
+
+
+
+function On_SwipeStart(gesture:Gesture)
+**************************************************
+Sent at the beginning of a swipe, A swipe is detected when the automatic selection returns a pickable gameobject
+
+
+function On_Swipe(gesture:Gesture)
+**************************************************
+Sent throughout the duration of a swipe
+
+
+function On_SwipeEnd(gesture:Gesture){
+**************************************************
+Sent when the swipe ends
+
+
+=================================================================================
+Two Fingers in same time
+=================================================================================
+
+function On_TouchCancel2Fingers(gesture:Gesture)
+**************************************************
+Sent when the number of number is no longer equal to 2
+
+
+function On_TouchStart2Fingers(gesture:Gesture)
+**************************************************
+See On_TouchStart but for 2 fingers
+
+
+function On_TouchDown2Fingers(gesture:Gesture)
+**************************************************
+See On_TouchDown but for 2 fingers
+
+
+function On_TouchUp2Fingers(gesture:Gesture)
+**************************************************
+See On_TouchUp but for 2 fingers
+
+
+function On_SimpleTap2Fingers(gesture:Gesture)
+**************************************************
+See On_SimpleTap but for 2 fingers
+
+function On_DoubleTap2Fingers(gesture:Gesture)
+**************************************************
+See On_DoubleTap but for 2 fingers
+
+
+function On_LongTapStart2Fingers(gesture:Gesture)
+**************************************************
+See On_LongTapStart but for 2 fingers
+
+
+function On_LongTap2Fingers(gesture:Gesture)
+**************************************************
+See On_LongTap but for 2 fingers
+
+
+function On_LongTapEnd2Fingers(gesture:Gesture)
+**************************************************
+See On_LongTapEnd but for 2 fingers
+
+
+function On_Twist(gesture:Gesture)
+**************************************************
+Sent throughout the duration of a twist
+
+
+function On_TwistEnd(gesture:Gesture)
+**************************************************
+Sent when the twist tap ends
+
+
+function On_PinchIn(gesture:Gesture)
+**************************************************
+Sent throughout the duration of a pinch in
+
+
+function On_PinchOut(gesture:Gesture)
+**************************************************
+Sent throughout the duration of a pinch out
+
+
+function On_PinchEnd(gesture:Gesture)
+**************************************************
+Sent when the pinch ends
+
+
+function On_DragStart2Fingers(gesture:Gesture)
+**************************************************
+See On_DragStart but for 2 fingers
+
+
+function On_Drag2Fingers(gesture:Gesture)
+**************************************************
+See On_Drag but for 2 fingers
+
+
+function On_DragEnd2Fingers(gesture:Gesture)
+**************************************************
+See On_DragEnd but for 2 fingers
+
+
+function On_SwipeStart2Fingers(gesture:Gesture)
+**************************************************
+See On_SwipeStart but for 2 fingers
+
+
+function On_Swipe2Fingers(gesture:Gesture)
+**************************************************
+See On_Swipe but for 2 fingers
+
+
+function On_SwipeEnd2Fingers(gesture:Gesture)
+**************************************************
+See On_SwipeEnd but for 2 fingers
+
+=================================================================================
+More Fingers in the same time
+- the methods for a finger are also sent by each finger
+=================================================================================

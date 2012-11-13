@@ -1,0 +1,75 @@
+Easy Touch V1.0 Statics Methods :
+=============================
+
+Look at Easy Touch parameters...
+
+** Enables or disables Easy Touch
+***************************************************************
+static function SetEnabled( enable:boolean)
+static function GetEnabled()
+
+
+** Enables 2 fingers gesture.
+***************************************************************
+static function SetEnable2FingersGesture( enable:boolean)
+static function GetEnable2FingersGesture()
+
+
+**Enables or disables recognition of the twist
+***************************************************************
+static function SetEnableTwist( enable:boolean)
+static function GetEnableTwist()
+
+
+** Enables or disables recognition of the Pinch
+***************************************************************
+static function SetEnablePinch( enable:boolean)
+static function GetEnablePinch()
+
+
+** Enables or disables auto select
+***************************************************************
+static function SetEnableAutoSelect( enable:boolean)
+static function GetEnableAutoSelect()
+
+
+** Set a recever Object who receive the messages from Easy touch
+***************************************************************
+static function SetOtherReceiverObject( receiver:GameObject)
+static function GetOtherReceiverObject()
+
+
+** Set the pickable layer
+***************************************************************
+static function SetPickableLayer( layer:int)
+static function GetPickableLayer()
+
+
+** Set the move tolerance
+***************************************************************
+static function SetStationnaryTolerance(tolerance:float)
+static function GetStationnaryTolerance()
+
+
+** Set the long tap time
+***************************************************************
+static function SetlongTapTime( time:float)
+static function GetlongTapTime()
+
+
+** Set the swipe tolerance
+***************************************************************
+static function SetSwipeTolerance( tolerance:float)
+static function GetSwipeTolerance()
+
+
+** The minimum length for a pinch detection.
+***************************************************************
+static function SetMinPinchLength( length:float)
+static function GetMinPinchLength()
+
+
+** Set the minimun twist angle
+***************************************************************
+static function SetMinTwistAngle( angle:float)
+static function GetMinTwistAngle()

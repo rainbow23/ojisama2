@@ -1,0 +1,131 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scene/_1start/script/GameCenter/lastSendScore.js">
+    <Files>
+      <File FileName="Assets/Plugins/GameCenter/testSupport/GameCenterEventListener.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scene/_1start/script/startButton/startButton_.js" Line="1" Column="1" />
+      <File FileName="Assets/Scene/_1start/script/bo_no_mu_buttonswitch/button_action.js" Line="1" Column="1" />
+      <File FileName="Assets/Scene/_1start/script/GameCenter/homeGamenScore.js" Line="17" Column="4" />
+      <File FileName="Assets/Scene/_1start/script/GameCenter/lastSendScore.js" Line="10" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Assembly-CSharp" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scene" expanded="True">
+                <Node name="_1start" expanded="True">
+                  <Node name="script" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+          <Node name="Assembly-CSharp-firstpass" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Plugins" expanded="True">
+                <Node name="GameCenter" expanded="True">
+                  <Node name="testSupport" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+          <Node name="Assembly-UnityScript" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Asset" expanded="True">
+                <Node name="TK2DROOT" expanded="True">
+                  <Node name="tk2d" expanded="True">
+                    <Node name="Shaders" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Scene" expanded="True">
+                <Node name="_1start" expanded="True">
+                  <Node name="script" expanded="True">
+                    <Node name="bo_no_mu_buttonswitch" expanded="True" />
+                    <Node name="GameCenter" expanded="True">
+                      <Node name="lastSendScore.js" selected="True" />
+                    </Node>
+                    <Node name="startButton" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/cam_buttonswitch/button_cam_move.js" line="15" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/cam_buttonswitch/button_cam_move.js" line="23" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/cam_buttonswitch/button_cam_move.js" line="43" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/cam_buttonswitch/button_action.js" line="270" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/bonomu_app6_GUI_2DTK/Assets/Plugins/randomMoji.cs" line="52" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/bo_no_mu_buttonswitch/button_action.js" line="56" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/bo_no_mu_buttonswitch/button_action.js" line="13" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/bo_no_mu_buttonswitch/button_action.js" line="85" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/startButton/startButton_.js" line="8" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/startButton/startButton_.js" line="64" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/startButton/startButton_.js" line="112" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/bo_no_mu_buttonswitch/button_action.js" line="309" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/bo_no_mu_buttonswitch/button_action.js" line="269" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/startButton/startButton_.js" line="218" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/startButton/startButton_.js" line="152" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/bo_no_mu_buttonswitch/button_action.js" line="80" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/bo_no_mu_buttonswitch/button_action.js" line="129" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/startButton/startButton_.js" line="66" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/startButton/startButton_.js" line="68" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/startButton/startButton_.js" line="49" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/startButton/startButton_.js" line="81" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/startButton/startButton_.js" line="70" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/startButton/startButton_.js" line="69" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/bo_no_mu_buttonswitch/button_action.js" line="193" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/bo_no_mu_buttonswitch/button_action.js" line="200" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/bo_no_mu_buttonswitch/button_action.js" line="212" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/bo_no_mu_buttonswitch/button_action.js" line="267" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/bo_no_mu_buttonswitch/button_action.js" line="274" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/startButton/startButton_.js" line="143" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/startButton/startButton_.js" line="195" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/bo_no_mu_buttonswitch/button_action.js" line="138" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/bo_no_mu_buttonswitch/button_action.js" line="141" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/bo_no_mu_buttonswitch/button_action.js" line="140" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/bo_no_mu_buttonswitch/button_action.js" line="139" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/bo_no_mu_buttonswitch/button_action.js" line="150" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/bo_no_mu_buttonswitch/button_action.js" line="149" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/bo_no_mu_buttonswitch/button_action.js" line="148" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/bo_no_mu_buttonswitch/button_action.js" line="160" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/bo_no_mu_buttonswitch/button_action.js" line="161" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/bo_no_mu_buttonswitch/button_action.js" line="162" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/bo_no_mu_buttonswitch/button_action.js" line="211" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/bo_no_mu_buttonswitch/button_action.js" line="210" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/bo_no_mu_buttonswitch/button_action.js" line="222" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/bo_no_mu_buttonswitch/button_action.js" line="223" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/bo_no_mu_buttonswitch/button_action.js" line="224" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/bo_no_mu_buttonswitch/button_action.js" line="231" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/bo_no_mu_buttonswitch/button_action.js" line="232" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/bo_no_mu_buttonswitch/button_action.js" line="233" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/bo_no_mu_buttonswitch/button_action.js" line="285" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Scene/_1start/script/bo_no_mu_buttonswitch/button_action.js" line="323" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Plugins/GameCenter/testSupport/GameCenterGUIManager.cs" line="129" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Plugins/GameCenter/testSupport/GameCenterGUIManager.cs" line="134" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Plugins/GameCenter/testSupport/GameCenterGUIManager.cs" line="147" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Plugins/GameCenter/testSupport/GameCenterGUIManager.cs" line="166" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Plugins/GameCenter/GameCenterBinding.cs" line="139" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Plugins/GameCenter/GameCenterBinding.cs" line="211" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Plugins/GameCenter/GameCenterBinding.cs" line="222" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Plugins/GameCenter/GameCenterBinding.cs" line="142" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Plugins/GameCenter/GameCenterBinding.cs" line="156" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Plugins/GameCenter/GameCenterBinding.cs" line="178" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Plugins/GameCenter/GameCenterBinding.cs" line="181" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Plugins/GameCenter/GameCenterBinding.cs" line="184" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Plugins/GameCenter/GameCenterBinding.cs" line="200" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Plugins/GameCenter/GameCenterBinding.cs" line="203" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Plugins/GameCenter/GameCenterBinding.cs" line="206" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Plugins/GameCenter/GameCenterBinding.cs" line="225" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Plugins/GameCenter/GameCenterBinding.cs" line="228" />
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/GitHub/unitygame-bonomu/bonomu_app6_GUI_2DTK/Assets/Plugins/GameCenter/testSupport/GameCenterGUIManager.cs" line="177" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

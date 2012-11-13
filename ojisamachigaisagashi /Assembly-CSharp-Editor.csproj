@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{627932C6-59C1-12B7-D08D-621D68DC48DA}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_5_1;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_IOS;UNITY_IPHONE;ENABLE_GENERICS;ENABLE_TERRAIN;ENABLE_WEBCAM;ENABLE_MICROPHONE;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW;ENABLE_DUCK_TYPING</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity3.5.2f2/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity3.5.2f2/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Asset\NGUI\Scripts\Editor\BMFontReader.cs" />
+     <Compile Include="Assets\Asset\NGUI\Scripts\Editor\ComponentSelector.cs" />
+     <Compile Include="Assets\Asset\NGUI\Scripts\Editor\NGUIEditorTools.cs" />
+     <Compile Include="Assets\Asset\NGUI\Scripts\Editor\NGUIJson.cs" />
+     <Compile Include="Assets\Asset\NGUI\Scripts\Editor\NGUIMenu.cs" />
+     <Compile Include="Assets\Asset\NGUI\Scripts\Editor\NGUISelectionTools.cs" />
+     <Compile Include="Assets\Asset\NGUI\Scripts\Editor\NGUITransformInspector.cs" />
+     <Compile Include="Assets\Asset\NGUI\Scripts\Editor\UIAtlasInspector.cs" />
+     <Compile Include="Assets\Asset\NGUI\Scripts\Editor\UIAtlasMaker.cs" />
+     <Compile Include="Assets\Asset\NGUI\Scripts\Editor\UICameraTool.cs" />
+     <Compile Include="Assets\Asset\NGUI\Scripts\Editor\UICreateNewUIWizard.cs" />
+     <Compile Include="Assets\Asset\NGUI\Scripts\Editor\UICreateWidgetWizard.cs" />
+     <Compile Include="Assets\Asset\NGUI\Scripts\Editor\UIDrawCallInspector.cs" />
+     <Compile Include="Assets\Asset\NGUI\Scripts\Editor\UIFilledSpriteInspector.cs" />
+     <Compile Include="Assets\Asset\NGUI\Scripts\Editor\UIFontInspector.cs" />
+     <Compile Include="Assets\Asset\NGUI\Scripts\Editor\UIFontMaker.cs" />
+     <Compile Include="Assets\Asset\NGUI\Scripts\Editor\UIImageButtonInspector.cs" />
+     <Compile Include="Assets\Asset\NGUI\Scripts\Editor\UILabelInspector.cs" />
+     <Compile Include="Assets\Asset\NGUI\Scripts\Editor\UIPanelInspector.cs" />
+     <Compile Include="Assets\Asset\NGUI\Scripts\Editor\UIPanelTool.cs" />
+     <Compile Include="Assets\Asset\NGUI\Scripts\Editor\UIPopupListInspector.cs" />
+     <Compile Include="Assets\Asset\NGUI\Scripts\Editor\UIScrollBarInspector.cs" />
+     <Compile Include="Assets\Asset\NGUI\Scripts\Editor\UISettings.cs" />
+     <Compile Include="Assets\Asset\NGUI\Scripts\Editor\UISlicedSpriteInspector.cs" />
+     <Compile Include="Assets\Asset\NGUI\Scripts\Editor\UISliderInspector.cs" />
+     <Compile Include="Assets\Asset\NGUI\Scripts\Editor\UISpriteAnimationInspector.cs" />
+     <Compile Include="Assets\Asset\NGUI\Scripts\Editor\UISpriteInspector.cs" />
+     <Compile Include="Assets\Asset\NGUI\Scripts\Editor\UITextureInspector.cs" />
+     <Compile Include="Assets\Asset\NGUI\Scripts\Editor\UITexturePacker.cs" />
+     <Compile Include="Assets\Asset\NGUI\Scripts\Editor\UITiledSpriteInspector.cs" />
+     <Compile Include="Assets\Asset\NGUI\Scripts\Editor\UIWidgetInspector.cs" />
+     <Compile Include="Assets\Asset\PSD2TK2D\Editor\PsdLayerExtractor.cs" />
+     <Compile Include="Assets\Asset\PSD2TK2D\Editor\PsdLayerTo2DToolKit.cs" />
+     <Compile Include="Assets\Asset\PSD2TK2D\Editor\PsdLayerToPngFiles.cs" />
+     <Compile Include="Assets\Asset\PSD2TK2D\Example\Editor\ExampleEditor.cs" />
+     <Compile Include="Assets\Asset\TK2DROOT\tk2d\Editor\Camera\tk2dCameraEditor.cs" />
+     <Compile Include="Assets\Asset\TK2DROOT\tk2d\Editor\Fonts\tk2dFontBuilder.cs" />
+     <Compile Include="Assets\Asset\TK2DROOT\tk2d\Editor\Fonts\tk2dFontEditor.cs" />
+     <Compile Include="Assets\Asset\TK2DROOT\tk2d\Editor\Fonts\tk2dTextMeshEditor.cs" />
+     <Compile Include="Assets\Asset\TK2DROOT\tk2d\Editor\Sprites\Atlas\tk2dAtlasBuilder.cs" />
+     <Compile Include="Assets\Asset\TK2DROOT\tk2d\Editor\Sprites\Atlas\tk2dAtlasRect.cs" />
+     <Compile Include="Assets\Asset\TK2DROOT\tk2d\Editor\Sprites\Atlas\tk2dMaxRectsBinPack.cs" />
+     <Compile Include="Assets\Asset\TK2DROOT\tk2d\Editor\Sprites\SpriteCollectionEditor\tk2dSpriteCollectionEditor.cs" />
+     <Compile Include="Assets\Asset\TK2DROOT\tk2d\Editor\Sprites\SpriteCollectionEditor\tk2dSpriteCollectionEditorFontView.cs" />
+     <Compile Include="Assets\Asset\TK2DROOT\tk2d\Editor\Sprites\SpriteCollectionEditor\tk2dSpriteCollectionEditorPopup.cs" />
+     <Compile Include="Assets\Asset\TK2DROOT\tk2d\Editor\Sprites\SpriteCollectionEditor\tk2dSpriteCollectionEditorProxy.cs" />
+     <Compile Include="Assets\Asset\TK2DROOT\tk2d\Editor\Sprites\SpriteCollectionEditor\tk2dSpriteCollectionEditorSettingsView.cs" />
+     <Compile Include="Assets\Asset\TK2DROOT\tk2d\Editor\Sprites\SpriteCollectionEditor\tk2dSpriteCollectionEditorSpriteSheetView.cs" />
+     <Compile Include="Assets\Asset\TK2DROOT\tk2d\Editor\Sprites\SpriteCollectionEditor\tk2dSpriteCollectionEditorSpriteView.cs" />
+     <Compile Include="Assets\Asset\TK2DROOT\tk2d\Editor\Sprites\SpriteCollectionEditor\tk2dSpriteCollectionEditorTextureView.cs" />
+     <Compile Include="Assets\Asset\TK2DROOT\tk2d\Editor\Sprites\TextureProcessing\tk2dFloydSteinbergDithering.cs" />
+     <Compile Include="Assets\Asset\TK2DROOT\tk2d\Editor\Sprites\Triangulator\tk2dTriangulator.cs" />
+     <Compile Include="Assets\Asset\TK2DROOT\tk2d\Editor\Sprites\tk2dAnimatedSpriteEditor.cs" />
+     <Compile Include="Assets\Asset\TK2DROOT\tk2d\Editor\Sprites\tk2dSlicedSpriteEditor.cs" />
+     <Compile Include="Assets\Asset\TK2DROOT\tk2d\Editor\Sprites\tk2dSpriteAnimationEditor.cs" />
+     <Compile Include="Assets\Asset\TK2DROOT\tk2d\Editor\Sprites\tk2dSpriteCollectionBuilder.cs" />
+     <Compile Include="Assets\Asset\TK2DROOT\tk2d\Editor\Sprites\tk2dSpriteCollectionTextureWatcher.cs" />
+     <Compile Include="Assets\Asset\TK2DROOT\tk2d\Editor\Sprites\tk2dSpriteEditor.cs" />
+     <Compile Include="Assets\Asset\TK2DROOT\tk2d\Editor\Sprites\tk2dSpriteThumbnailCache.cs" />
+     <Compile Include="Assets\Asset\TK2DROOT\tk2d\Editor\Sprites\tk2dStaticSpriteBatcherEditor.cs" />
+     <Compile Include="Assets\Asset\TK2DROOT\tk2d\Editor\Tilemap\Importer\tk2dTileMapImporter.cs" />
+     <Compile Include="Assets\Asset\TK2DROOT\tk2d\Editor\Tilemap\tk2dTileMapBrushBuilder.cs" />
+     <Compile Include="Assets\Asset\TK2DROOT\tk2d\Editor\Tilemap\tk2dTileMapBrushRenderer.cs" />
+     <Compile Include="Assets\Asset\TK2DROOT\tk2d\Editor\Tilemap\tk2dTileMapEditor.cs" />
+     <Compile Include="Assets\Asset\TK2DROOT\tk2d\Editor\Tilemap\tk2dTileMapEditorData.cs" />
+     <Compile Include="Assets\Asset\TK2DROOT\tk2d\Editor\Tilemap\tk2dTileMapEditorDataInspector.cs" />
+     <Compile Include="Assets\Asset\TK2DROOT\tk2d\Editor\Tilemap\tk2dTileMapSceneGUI.cs" />
+     <Compile Include="Assets\Asset\TK2DROOT\tk2d\Editor\Tilemap\tk2dTileMapUtility.cs" />
+     <Compile Include="Assets\Asset\TK2DROOT\tk2d\Editor\tk2dEditorSkin.cs" />
+     <Compile Include="Assets\Asset\TK2DROOT\tk2d\Editor\tk2dEditorUtility.cs" />
+     <Compile Include="Assets\Asset\TK2DROOT\tk2d\Editor\tk2dGuiUtility.cs" />
+     <Compile Include="Assets\Asset\TK2DROOT\tk2d\Editor\tk2dIndex.cs" />
+     <Compile Include="Assets\Asset\TK2DROOT\tk2d\Editor\tk2dJSSupport.cs" />
+     <Compile Include="Assets\Asset\TK2DROOT\tk2d\Editor\tk2dMenu.cs" />
+     <Compile Include="Assets\Asset\TK2DROOT\tk2d\Editor\tk2dPreferencesEditor.cs" />
+     <Compile Include="Assets\Asset\TK2DROOT\tk2d\Editor\tk2dScaleUtility.cs" />
+     <Compile Include="Assets\Asset\TK2DROOT\tk2d\Editor\tk2dSpriteGuiUtility.cs" />
+     <Compile Include="Assets\Asset\TK2DROOT\tk2d\Editor\tk2dUpdateWindow.cs" />
+     <None Include="Assets\Asset\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />
+     <None Include="Assets\Asset\EasyTouch\Documentation\How to start.txt" />
+     <None Include="Assets\Asset\TK2DROOT\tk2d\Shaders\LitSolidVertexColor.shader" />
+     <None Include="Assets\Asset\TK2DROOT\tk2d\Shaders\SolidVertexColor.shader" />
+     <None Include="Assets\Asset\NGUI\Resources\Shaders\Unlit - Masked Colored.shader" />
+     <None Include="Assets\Asset\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (AlphaClip) .shader" />
+     <None Include="Assets\Asset\TK2DROOT\tk2d\Shaders\LitPremulVertexColor.shader" />
+     <None Include="Assets\Asset\TK2DROOT\tk2d\Shaders\PremulVertexColor.shader" />
+     <None Include="Assets\Asset\TK2DROOT\tk2d_demo\Credits.txt" />
+     <None Include="Assets\Asset\EasyTouch\Documentation\Easy Touch Static.txt" />
+     <None Include="Assets\Asset\TK2DROOT\tk2d\Shaders\Blend2TexVertexColor.shader" />
+     <None Include="Assets\Asset\NGUI\Resources\Shaders\Unlit - Transparent Colored (AlphaClip).shader" />
+     <None Include="Assets\Asset\TK2DROOT\tk2d\Shaders\BlendVertexColor.shader" />
+     <None Include="Assets\Asset\EasyTouch\Documentation\Methods documentation.txt" />
+     <None Include="Assets\Asset\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (SoftClip).shader" />
+     <None Include="Assets\Asset\TK2DROOT\tk2d\Shaders\LitCutoutVertexColor.shader" />
+     <None Include="Assets\Asset\NGUI\ReadMe - 2.1.4.txt" />
+     <None Include="Assets\Asset\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+     <None Include="Assets\Asset\NGUI\Resources\Shaders\Unlit - Transparent Colored (HardClip).shader" />
+     <None Include="Assets\Asset\NGUI\Resources\Shaders\Unlit - Transparent Colored Overlay.shader" />
+     <None Include="Assets\Asset\TK2DROOT\tk2d\Shaders\CutoutVertexColor.shader" />
+     <None Include="Assets\Asset\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed).shader" />
+     <None Include="Assets\Asset\EasyTouch\Readme.txt" />
+     <None Include="Assets\Asset\EasyTouch\Documentation\Concepts (read first).txt" />
+     <None Include="Assets\Asset\TK2DROOT\tk2d\Shaders\LitBlendVertexColor.shader" />
+     <None Include="Assets\Asset\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (HardClip).shader" />
+     <None Include="Assets\Asset\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" />
+     <None Include="Assets\Asset\NGUI\Resources\Shaders\Unlit - Depth.shader" />
+     <None Include="Assets\Asset\EasyTouch\Documentation\Easy Touch Parameters.txt" />
+     <None Include="Assets\Asset\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
+ <Reference Include="Assets\Asset\PSD2TK2D\PsdParser">
+ <HintPath>Assets\Asset\PSD2TK2D\PsdParser.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\Asset\TK2DROOT\tk2d\Editor\tk2dExternal">
+ <HintPath>Assets\Asset\TK2DROOT\tk2d\Editor\tk2dExternal.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\Editor\Prime31\P31MenuItem">
+ <HintPath>Assets\Editor\Prime31\P31MenuItem.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\Plugins\Prime31\P31RestKit">
+ <HintPath>Assets\Plugins\Prime31\P31RestKit.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{946F250F-A737-1B14-32F3-4C0B4D9A3C1E}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript.unityproj">
+      <Project>{7E3A1A2F-E1E1-40AC-4D49-5EC8EEDC8325}</Project>      <Name>Assembly-UnityScript</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

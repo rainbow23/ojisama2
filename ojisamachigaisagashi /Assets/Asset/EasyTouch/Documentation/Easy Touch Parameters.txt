@@ -1,0 +1,64 @@
+Easy Touch V1.0 Parameters :
+=============================
+
+All these parameters are read / write in real-time with  the statics methods of EasyTouch
+
+
+Enable : 
+********
+Enables or disables Easy Touch
+
+
+Enable 2Fingers Gesture : 
+*************************
+Enables 2 fingers gesture.
+
+
+Enable Twist : 
+**************
+Enables or disables recognition of the twist
+
+
+Enable Pinch : 
+**************
+Enables or disables recognition of the Pinch
+
+
+Auto Select : 
+*************
+Enables or disables auto select
+
+
+Pickable layer : 
+****************
+Layer detectable by default.
+
+
+Stationnary tolerance : 
+***********************
+Above this value a drag gesture is considered stationary. A too small value may affect the detection of "tap, long tap, double tap"
+
+
+Long Tap Time : 
+***************
+Time in seconds before detecting a "long tap". Below this value the relaxation of the finger, it will send a "Tap"
+
+
+Swipe Tolerance :
+*****************
+Determines the recognition accuracy of a swipe (left, right, up, down, other). The value must ranged from 0 and 1.
+
+0 => Can precision in gesture
+1 => The gesture must be very precise
+
+
+Min Pinch length :
+******************
+The minimum distance traveled for a pinch gesture is detected.
+
+
+Min Twist Angle : 
+******************
+The minimum angle for the detection of a twist.
+
+

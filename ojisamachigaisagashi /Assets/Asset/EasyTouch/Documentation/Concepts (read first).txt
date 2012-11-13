@@ -1,0 +1,17 @@
+Easy Touch V1.0: Concepts
+=========================
+
+The concept is very simple, EasyTouch uses the SendMessage method to notify you of an action on the touch screen or with mouse.
+
+It send these messages on gameobject carrying the script, or on the selected object. A final option allows you to notify
+a other gameobject.
+
+EasyTouch allows automatic detection of all gameobjects with a collider with  the layer 8 (you can change the default layer as needed)
+
+ 
+EasyTouch simulates the second finger when you press the ALT or CTRL key, an orange circle appears on the screen to 
+the simulated position. 
+ALT => For twist or pinch gesture
+CTRL => For swipe or drag gesture
+
+You don't need prefab ! You can easily manage every gestures with a simple script 

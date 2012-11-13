@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{946F250F-A737-1B14-32F3-4C0B4D9A3C1E}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_5_1;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_IOS;UNITY_IPHONE;ENABLE_GENERICS;ENABLE_TERRAIN;ENABLE_WEBCAM;ENABLE_MICROPHONE;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity3.5.2f2/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity3.5.2f2/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Plugins\GameCenter\GameCenterAchievement.cs" />
+     <Compile Include="Assets\Plugins\GameCenter\GameCenterAchievementMetadata.cs" />
+     <Compile Include="Assets\Plugins\GameCenter\GameCenterBinding.cs" />
+     <Compile Include="Assets\Plugins\GameCenter\GameCenterChallenge.cs" />
+     <Compile Include="Assets\Plugins\GameCenter\GameCenterLeaderboard.cs" />
+     <Compile Include="Assets\Plugins\GameCenter\GameCenterManager.cs" />
+     <Compile Include="Assets\Plugins\GameCenter\GameCenterPlayer.cs" />
+     <Compile Include="Assets\Plugins\GameCenter\GameCenterScore.cs" />
+     <Compile Include="Assets\Plugins\GameCenter\testSupport\GameCenterEventListener.cs" />
+     <Compile Include="Assets\Plugins\GameCenter\testSupport\GameCenterGUIManager.cs" />
+     <Compile Include="Assets\Plugins\tk2d\Camera\tk2dCamera.cs" />
+     <Compile Include="Assets\Plugins\tk2d\Camera\tk2dCameraAnchor.cs" />
+     <Compile Include="Assets\Plugins\tk2d\Fonts\tk2dFont.cs" />
+     <Compile Include="Assets\Plugins\tk2d\Fonts\tk2dFontData.cs" />
+     <Compile Include="Assets\Plugins\tk2d\Fonts\tk2dTextMesh.cs" />
+     <Compile Include="Assets\Plugins\tk2d\Gui\tk2dButton.cs" />
+     <Compile Include="Assets\Plugins\tk2d\Sprites\tk2dAnimatedSprite.cs" />
+     <Compile Include="Assets\Plugins\tk2d\Sprites\tk2dBaseSprite.cs" />
+     <Compile Include="Assets\Plugins\tk2d\Sprites\tk2dPixelPerfectHelper.cs" />
+     <Compile Include="Assets\Plugins\tk2d\Sprites\tk2dSlicedSprite.cs" />
+     <Compile Include="Assets\Plugins\tk2d\Sprites\tk2dSprite.cs" />
+     <Compile Include="Assets\Plugins\tk2d\Sprites\tk2dSpriteAnimation.cs" />
+     <Compile Include="Assets\Plugins\tk2d\Sprites\tk2dSpriteCollection.cs" />
+     <Compile Include="Assets\Plugins\tk2d\Sprites\tk2dSpriteCollectionData.cs" />
+     <Compile Include="Assets\Plugins\tk2d\Sprites\tk2dSpriteCollectionInterfaces.cs" />
+     <Compile Include="Assets\Plugins\tk2d\Sprites\tk2dStaticSpriteBatcher.cs" />
+     <Compile Include="Assets\Plugins\tk2d\TileMap\tk2dTileMap.cs" />
+     <Compile Include="Assets\Plugins\tk2d\TileMap\tk2dTileMapBuilderUtil.cs" />
+     <Compile Include="Assets\Plugins\tk2d\TileMap\tk2dTileMapChunks.cs" />
+     <Compile Include="Assets\Plugins\tk2d\TileMap\tk2dTileMapColliderBuilder.cs" />
+     <Compile Include="Assets\Plugins\tk2d\TileMap\tk2dTileMapData.cs" />
+     <Compile Include="Assets\Plugins\tk2d\TileMap\tk2dTileMapMeshBuilder.cs" />
+     <None Include="Assets\Asset\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />
+     <None Include="Assets\Asset\EasyTouch\Documentation\How to start.txt" />
+     <None Include="Assets\Asset\TK2DROOT\tk2d\Shaders\LitSolidVertexColor.shader" />
+     <None Include="Assets\Asset\TK2DROOT\tk2d\Shaders\SolidVertexColor.shader" />
+     <None Include="Assets\Asset\NGUI\Resources\Shaders\Unlit - Masked Colored.shader" />
+     <None Include="Assets\Asset\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (AlphaClip) .shader" />
+     <None Include="Assets\Asset\TK2DROOT\tk2d\Shaders\LitPremulVertexColor.shader" />
+     <None Include="Assets\Asset\TK2DROOT\tk2d\Shaders\PremulVertexColor.shader" />
+     <None Include="Assets\Asset\TK2DROOT\tk2d_demo\Credits.txt" />
+     <None Include="Assets\Asset\EasyTouch\Documentation\Easy Touch Static.txt" />
+     <None Include="Assets\Asset\TK2DROOT\tk2d\Shaders\Blend2TexVertexColor.shader" />
+     <None Include="Assets\Asset\NGUI\Resources\Shaders\Unlit - Transparent Colored (AlphaClip).shader" />
+     <None Include="Assets\Asset\TK2DROOT\tk2d\Shaders\BlendVertexColor.shader" />
+     <None Include="Assets\Asset\EasyTouch\Documentation\Methods documentation.txt" />
+     <None Include="Assets\Asset\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (SoftClip).shader" />
+     <None Include="Assets\Asset\TK2DROOT\tk2d\Shaders\LitCutoutVertexColor.shader" />
+     <None Include="Assets\Asset\NGUI\ReadMe - 2.1.4.txt" />
+     <None Include="Assets\Asset\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+     <None Include="Assets\Asset\NGUI\Resources\Shaders\Unlit - Transparent Colored (HardClip).shader" />
+     <None Include="Assets\Asset\NGUI\Resources\Shaders\Unlit - Transparent Colored Overlay.shader" />
+     <None Include="Assets\Asset\TK2DROOT\tk2d\Shaders\CutoutVertexColor.shader" />
+     <None Include="Assets\Asset\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed).shader" />
+     <None Include="Assets\Asset\EasyTouch\Readme.txt" />
+     <None Include="Assets\Asset\EasyTouch\Documentation\Concepts (read first).txt" />
+     <None Include="Assets\Asset\TK2DROOT\tk2d\Shaders\LitBlendVertexColor.shader" />
+     <None Include="Assets\Asset\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (HardClip).shader" />
+     <None Include="Assets\Asset\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" />
+     <None Include="Assets\Asset\NGUI\Resources\Shaders\Unlit - Depth.shader" />
+     <None Include="Assets\Asset\EasyTouch\Documentation\Easy Touch Parameters.txt" />
+     <None Include="Assets\Asset\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
+ <Reference Include="Assets\Asset\PSD2TK2D\PsdParser">
+ <HintPath>Assets\Asset\PSD2TK2D\PsdParser.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\Plugins\Prime31\P31RestKit">
+ <HintPath>Assets\Plugins\Prime31\P31RestKit.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

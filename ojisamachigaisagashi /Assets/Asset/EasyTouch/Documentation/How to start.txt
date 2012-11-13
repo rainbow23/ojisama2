@@ -1,0 +1,25 @@
+Easy Touch V1.0: How to start
+=============================
+
+1 - Assign the script EasyTouch (plugins directory) on the camera or an empty gameobject.
+
+2 - Adjust various parameters of the script EasyTouch (by default it's working fine for IPAD2)
+
+3 - Add a new script (on the gameobject of step 1) that will implement the various methods sent by EasyTouch.
+
+4 - If you have selectable gameobjects who should receive information after selection,
+ made ​​as in step 3 for these gameobjects, and set the layer to 8 (layer by default)
+
+
+It's all over...
+
+
+
+
+
+
+
+
+
+
+

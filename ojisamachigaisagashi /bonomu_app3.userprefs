@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scene/_1start/script/backtoStart.js">
+    <Files>
+      <File FileName="Assets/Scene/_1start/script/buttonSwitchAnim.cs" Line="24" Column="27" />
+      <File FileName="Assets/Scene/_1start/script/backtoStart.js" Line="11" Column="14" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/FutohashiMitsuhiro/Desktop/unity_app_ios/BONOMU/bonomu_app3/Assets/Asset/TK2DROOT/tk2d/Code/Gui/tk2dButton.cs" line="332" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
