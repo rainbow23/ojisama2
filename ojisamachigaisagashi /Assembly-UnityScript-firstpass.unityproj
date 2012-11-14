@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{B1813481-0DCF-09B7-2A30-BEFFCCEC8A7C}</ProjectGuid>
+	<ProjectGuid>{73BD9AC7-5486-61AF-0233-EFEB29C9C3A0}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -18,7 +18,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_3_5_6;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_IOS;UNITY_IPHONE;ENABLE_GENERICS;ENABLE_TERRAIN;ENABLE_WEBCAM;ENABLE_MICROPHONE;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_5_1;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_IOS;UNITY_IPHONE;ENABLE_GENERICS;ENABLE_TERRAIN;ENABLE_WEBCAM;ENABLE_MICROPHONE;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -37,14 +37,14 @@
     <Reference Include="System.XML" />
 	<Reference Include="System.Core" />
 	<Reference Include="UnityEngine">
-	  <HintPath>/Applications/Unity3.6.5/Unity3.5.6f4.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>/Applications/Unity3.5.2f2/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>/Applications/Unity3.6.5/Unity3.5.6f4.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>/Applications/Unity3.5.2f2/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Plugins\cam_MOVE.js" />
+     <Compile Include="Assets\Plugins\easyTouch\EsayTouchStruct.js" />
      <None Include="Assets\Asset\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />
      <None Include="Assets\Asset\EasyTouch\Documentation\How to start.txt" />
      <None Include="Assets\Asset\TK2DROOT\tk2d\Shaders\LitSolidVertexColor.shader" />
@@ -72,7 +72,6 @@
      <None Include="Assets\Asset\TK2DROOT\tk2d\Shaders\LitBlendVertexColor.shader" />
      <None Include="Assets\Asset\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (HardClip).shader" />
      <None Include="Assets\Asset\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" />
-     <None Include="Assets\bitmapFont\haruhi_gakuen\BMfont\sel_kanji.txt" />
      <None Include="Assets\Asset\NGUI\Resources\Shaders\Unlit - Depth.shader" />
      <None Include="Assets\Asset\EasyTouch\Documentation\Easy Touch Parameters.txt" />
      <None Include="Assets\Asset\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />

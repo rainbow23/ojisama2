@@ -76,6 +76,7 @@
      <Compile Include="Assets\Asset\EasyTouch\Plugins\EasyTouchInput.js" />
      <Compile Include="Assets\Asset\EasyTouch\Plugins\EasyTouchTemplate.js" />
      <Compile Include="Assets\Asset\EasyTouch\Plugins\EsayTouchStruct.js" />
+     <Compile Include="Assets\Scene\script\touchControl.js" />
      <None Include="Assets\Asset\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />
      <None Include="Assets\Asset\EasyTouch\Documentation\How to start.txt" />
      <None Include="Assets\Asset\TK2DROOT\tk2d\Shaders\LitSolidVertexColor.shader" />
